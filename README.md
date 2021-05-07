@@ -1,6 +1,7 @@
 # Conway's Game of Life
 
-Conway's Game is a zero-player one, we can only influence the starting state
+Conway's Game is a zero-player one, we can only influence the starting state.
+
 The rules of the game are quite simple (from wikipedia):
   1. Any live cell with 2 or 3 live neighbors survives
   2. Any dead cell with 3 live neighbors becomes a live cell
