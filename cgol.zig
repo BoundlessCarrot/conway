@@ -181,7 +181,7 @@ pub fn main() !void {
     }
 
     // Main loop
-    while (true) : (std.time.sleep(3000)) {
+    while (true) : (std.time.sleep(500000000)) {
         // Print the board to stdout
         const printed_board = try boardPrint(board, alloc);
         defer alloc.free(printed_board);
